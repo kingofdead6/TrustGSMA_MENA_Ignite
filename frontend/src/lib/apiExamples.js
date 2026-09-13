@@ -1,4 +1,4 @@
-export const VERIFY_CURL = `curl -X POST http://localhost:8000/v1/verify \\
+export const VERIFY_CURL = `curl -X POST https://trustgsma-mena-ignite.onrender.com/v1/verify \\
   -H "Content-Type: application/json" \\
   -d '{
     "event_type": "transfer",
@@ -48,7 +48,7 @@ export const VERIFY_RESPONSE = `{
   }
 }`
 
-export const BUSINESS_BINDING_CURL = `curl -X POST http://localhost:8000/v1/business-bindings \\
+export const BUSINESS_BINDING_CURL = `curl -X POST https://trustgsma-mena-ignite.onrender.com/v1/business-bindings \\
   -H "Content-Type: application/json" \\
   -d '{
     "id": "bb_algeria_fintech_01",
