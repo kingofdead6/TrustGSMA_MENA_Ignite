@@ -11,7 +11,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   base: './',
   build: {
-    outDir: resolve(rootDir, '../dist'),
+    outDir: resolve(rootDir, 'dist'),
     emptyOutDir: true,
   },
 })
